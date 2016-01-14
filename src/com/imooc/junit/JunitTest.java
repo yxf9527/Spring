@@ -8,7 +8,7 @@ import org.junit.runners.BlockJUnit4ClassRunner;
 public class JunitTest extends UnitTestBase{
 	
 	public JunitTest(){
-		super("classpath:config/spring-injection.xml");
+		super("classpath:springconfig/spring-injection.xml");
 	}
 	
 	@Test

@@ -12,7 +12,7 @@ public class Testioc extends UnitTestBase {
 
 
 	public Testioc(){
-		super("classpath:config/spring-injection.xml");
+		super("classpath:springconfig/spring-injection.xml");
 	}
 	
 	@Test

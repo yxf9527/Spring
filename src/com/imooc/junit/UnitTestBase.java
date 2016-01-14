@@ -23,7 +23,7 @@ public class UnitTestBase {
 	public void before(){
 		System.out.println("即将开始单元化测试！");
 		if(StringUtils.isEmpty(springXmlpath)){
-			springXmlpath = "classpath*:config/spring-*.xml";
+			springXmlpath = "classpath*:springconfig/spring-*.xml";
 		}
 		try{
 			context = new ClassPathXmlApplicationContext(springXmlpath.split("[,\\s]+"));
