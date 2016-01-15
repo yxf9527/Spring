@@ -1,0 +1,5 @@
+spring中提供了一些以aware为结尾的接口如applicationContextAware，beanNameAware接口 
+
+实现这些接口可以实现自动装配并获取相关对象如获取applicationContext上下文接口
+
+实现beanNameAware可以获取配置文件中的id
