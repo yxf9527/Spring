@@ -1,0 +1,3 @@
+该包的demo是spring配置项和作用域
+
+作用域方面主要测试singleton和prototype两个scope值
