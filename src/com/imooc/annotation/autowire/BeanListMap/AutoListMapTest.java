@@ -18,5 +18,11 @@ public class AutoListMapTest extends UnitTestBase {
 		BeanListMap bean = super.getBean("beanListMap");
 		bean.say();
 	}
+	
+	@Test
+	public void testQualfier(){
+		qualifierBean bean = super.getBean("qualifierBean");
+		bean.say();
+	}
 
 }
