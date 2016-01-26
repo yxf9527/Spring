@@ -13,5 +13,6 @@
 	<classpathentry kind="lib" path="libs/spring-expression-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="libs/spring-framework-bom-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="libs/spring-instrument-4.0.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="libs/spring-jdbc-4.0.5.RELEASE.jar"/>
 	<classpathentry kind="output" path="classes"/>
 </classpath>
